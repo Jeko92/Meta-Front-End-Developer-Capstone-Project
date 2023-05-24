@@ -1,0 +1,29 @@
+/* HEADER */
+header {
+  width: 100%;
+  padding: 1rem 2rem;
+  z-index: 60;
+  /* background-color: #887764; */
+  background-color: rgba(89, 63, 45, 1);
+  backdrop-filter: blur(6px);
+  /* border-bottom: 1px solid rgba(244, 239, 228, 0.4); */
+}
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  text-decoration: none;
+}
+
+.header-logo img,
+.footer-logo img {
+  height: 3rem;
+  vertical-align: middle;
+  width: auto;
+}

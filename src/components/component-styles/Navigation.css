@@ -1,0 +1,32 @@
+/* NAVIGATION */
+
+.nav-default {
+  display: flex;
+}
+
+.nav-default__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-default__item {
+  margin: 0 2rem;
+}
+
+.nav-default__item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.3rem 0;
+}
+
+.nav-default__item .nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.3rem 0;
+}
