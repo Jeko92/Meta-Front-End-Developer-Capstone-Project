@@ -1,3 +1,7 @@
 export default function Menupage() {
-  return <h1>Menupage content goes here!</h1>;
+  return (
+    <main>
+      <h1>Hello Menu</h1>
+    </main>
+  );
 }

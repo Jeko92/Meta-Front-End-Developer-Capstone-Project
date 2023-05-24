@@ -9,7 +9,7 @@ export default function Header() {
     <>
       <header>
         <div className="header-wrapper container-xl">
-          <div>
+          <div className="header-logo-wrapper">
             <Link className="header-logo" to="/">
               <img src={LittleLemonLogo} alt="Logo of Little Lemon" />
             </Link>

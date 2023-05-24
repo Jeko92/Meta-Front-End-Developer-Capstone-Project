@@ -1,0 +1,42 @@
+.reservations-wrapper {
+  background: url("../../assets/images/restaurant.jpg");
+  padding: 5rem 0;
+  position: relative;
+}
+
+.backdrop-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40vh;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgba(73, 45, 28, 0.1);
+  z-index: 2;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+  background-color: #887764;
+  color: #fff;
+
+  margin-top: 3rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #f4ce14;
+}

@@ -9,6 +9,16 @@
 .footer-wrapper > * {
   flex: 1;
 }
+.footer-logo-wrapper {
+  background: #fff;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.footer-logo {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
 
 .social-icons {
   margin-top: 2rem;

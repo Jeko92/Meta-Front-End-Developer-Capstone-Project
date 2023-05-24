@@ -16,9 +16,14 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.header-logo-wrapper {
+  background: #fff;
+  padding: 1rem;
+}
 
 .header-logo {
   text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
 .header-logo img,

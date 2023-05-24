@@ -16,10 +16,10 @@ export default function Footer() {
     <footer>
       <div className="container-xl footer-wrapper">
         <div className="footer-logo-group">
-          <div>
-            <a className="footer-logo" href="./index.html">
+          <div className="footer-logo-wrapper">
+            <Link className="footer-logo" to="/">
               <img src={LittleLemonLogo} alt="Logo of Little Lemon" />
-            </a>
+            </Link>
           </div>
           <div className="social-icons">
             <Link
