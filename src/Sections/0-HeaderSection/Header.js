@@ -1,4 +1,4 @@
-import HeaderLogo from "../../assets/logos/header-logo1.png";
+import LittleLemonLogo from "../../assets/logos/littlelemonlogo.png";
 import "../sections-styles/Header.css";
 import { IoIosLogIn } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ export default function Header() {
         <div className="header-wrapper container-xl">
           <div>
             <Link className="header-logo" to="/">
-              <img src={HeaderLogo} alt="Logo of Little Lemon" />
+              <img src={LittleLemonLogo} alt="Logo of Little Lemon" />
             </Link>
           </div>
           <Navigation />

@@ -1,0 +1,65 @@
+/* FOOTER STYLES */
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer-wrapper > * {
+  flex: 1;
+}
+
+.social-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-icons svg {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  /* font-size: 1.4rem; */
+}
+
+.footer-links a,
+.footer-contact {
+  font-size: 1.4rem;
+}
+
+.footer-links a:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.footer-contact p:not(las) {
+  margin-bottom: 1.5rem;
+}
+
+.footer-email {
+  text-decoration: none;
+  color: #fff;
+}
+
+#map {
+  height: 20rem;
+}
+
+.leaflet-container {
+  height: 200px;
+  width: 300px;
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -5,7 +5,7 @@ import MenuPage from "../src/pages/MenuPage/MenuPage";
 import Reservation from "../src/pages/ReservationsPage/Reservation";
 import ReservationConfirmation from "../src/pages/ReservationConfirmationPage/ReservationConfirmation";
 import Header from "../src/Sections/0-HeaderSection/Header";
-import Footer from "../src/components/Footer";
+import Footer from "./Sections/6-FooterSection/Footer";
 
 function App() {
   return (
