@@ -1,0 +1,19 @@
+/* GALLERY SECTION */
+.gallery-section {
+  padding: 5rem 2rem;
+}
+
+.gallery-section__header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.gallery-item {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

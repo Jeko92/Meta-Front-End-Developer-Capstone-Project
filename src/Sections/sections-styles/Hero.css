@@ -1,0 +1,54 @@
+/* HERO SECTION */
+.hero-section {
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section__backdrop-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background: rgba(73, 45, 28, 0.1);
+  z-index: 2;
+}
+
+.hero-section__bg-video--container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.hero-section__bg-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 5;
+  text-align: center;
+  display: block;
+}
+
+.hero-section__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  color: #fff;
+  z-index: 7;
+  padding: 9rem 0;
+}
+
+.hero-section__content p {
+  font-size: 2rem;
+  font-weight: normal;
+}

@@ -1,0 +1,68 @@
+/* WELCOME SECTION */
+.welcome-section {
+  padding: 10rem 2rem 5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.welcome-content,
+.welcome-img-box {
+  flex: 1 0 50%;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  height: 100%;
+  margin-bottom: 5rem;
+}
+
+.welcome-content-header {
+  font-size: 3.5rem;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 6.4rem;
+}
+
+.welcome-content-subheader {
+  font-size: 1.3rem;
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 28px;
+  color: #757575;
+}
+
+.welcome-content-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 24px;
+  line-height: 1.4;
+}
+
+.welcome-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: 60rem;
+  max-height: 60rem;
+}

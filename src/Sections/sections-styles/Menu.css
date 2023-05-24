@@ -1,0 +1,62 @@
+/* ASSORTMENT SECTION */
+.assortment-section-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem 2rem;
+}
+
+.assortment-section-box > * {
+  flex: 1 1 50%;
+}
+
+.assortment-section-img-box {
+  height: 60rem;
+}
+
+.assortment-section-img {
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.assortment-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  height: 60rem;
+}
+
+.assortment-section-header {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.assortment-section-items {
+  flex: 1;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.assortment-section-items a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.assortment-section-item {
+  max-width: 35rem;
+  border-bottom: 2px solid rgba(136, 119, 100, 0.7);
+}
