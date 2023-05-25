@@ -24,7 +24,15 @@ export default function App() {
           dynamicBullets: true,
         }}
         loop={true}
-        slidesPerView={3}
+        breakpoints={{
+          390: {
+            slidesPerView: 1,
+          },
+          798: {
+            slidesPerView: 3,
+            spaceBetween: 32,
+          },
+        }}
         spaceBetween={32}
         autoplay={{
           delay: 1300,

@@ -54,6 +54,12 @@ input[type="date"] {
   width: 100%;
 }
 
+input[type="tel"] {
+  display: block;
+  color: #887764;
+  width: 100%;
+}
+
 label {
   font-size: 1.8rem;
   font-weight: 700;
