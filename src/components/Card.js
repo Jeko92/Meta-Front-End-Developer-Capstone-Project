@@ -5,24 +5,27 @@ import {
 } from "react-icons/io5";
 
 export default function MealCard(props) {
-  //
+  // let imgUrl = props.img;
+  // console.log(imgUrl, typeof imgUrl);
+
   return (
     <div className="meal">
       <img
-        src={require("../assets/images/mezze.jpg")}
+        // src={require(`../assets/images/${props.imgName}`)}
+        src={require(`../assets/images/${props.img}`)}
         className="meal-img"
         alt="Mezze"
       />
       <div className="meal-content">
         <div className="meal-tags">
-          {/* <span className="tag tag--vegetarian">Vegetarian≤</span> */}
           {props.tags
             ? props.tags.map((tag) => {
                 let className = `tag tag--${tag}`;
-                console.log(
-                  `current tag is :${tag}, current classname is:${className}`
+                return (
+                  <span key={Math.random()} className={className}>
+                    {tag}
+                  </span>
                 );
-                return <span className={className}>{tag}</span>;
               })
             : ""}
         </div>
@@ -31,19 +34,19 @@ export default function MealCard(props) {
           <li key={Math.random()} className="meal-attribute">
             <IoFlameOutline className="meal-icon md hydrated" />
             <span>
-              <strong>650</strong> Calories
+              <strong>{props.calories}</strong> Calories
             </span>
           </li>
-          <li key={Math.random() + 1} className="meal-attribute">
+          <li key={Math.random()} className="meal-attribute">
             <IoRestaurantOutline className="meal-icon md hydrated" />
             <span>
-              NutriScore ® <strong>74</strong>
+              NutriScore ® <strong>{props.nutriScore}</strong>
             </span>
           </li>
-          <li key={Math.random() + 2} className="meal-attribute">
+          <li key={Math.random()} className="meal-attribute">
             <IoStarOutline className="meal-icon md hydrated" />
             <span>
-              <strong>4.9</strong> rating (537)
+              <strong>{props.rating}</strong> rating ({props.numberOfViews})
             </span>
           </li>
         </ul>

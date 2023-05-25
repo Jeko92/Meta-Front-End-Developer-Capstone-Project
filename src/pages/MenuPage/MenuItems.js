@@ -1,7 +1,8 @@
 const MenuItems = [
   {
     id: 1,
-    img: "../../assets/images/mezze.jpg",
+    // img: "../../assets/images/mezze.jpg",
+    imgName: "mezze.jpg",
     tags: ["vegetarian"],
     meal: "Mezze",
     calories: 650,
@@ -11,7 +12,8 @@ const MenuItems = [
   },
   {
     id: 2,
-    img: "../../assets/images/moussaka.jpg",
+    // img: "../assets/images/moussaka.jpg",
+    imgName: "moussaka.jpg",
     tags: ["vegan", "paleo"],
     meal: "Moussaka",
     calories: 400,
@@ -21,7 +23,8 @@ const MenuItems = [
   },
   {
     id: 3,
-    img: "../../assets/images/greek-salad.jpg",
+    // img: "../assets/images/greek-salad.jpg",
+    imgName: "greek-salad.jpg",
     tags: ["vegan", "paleo"],
     meal: "Greek Salad",
     calories: 420,
@@ -31,7 +34,8 @@ const MenuItems = [
   },
   {
     id: 4,
-    img: "../../assets/images/paella.jpg",
+    // img: "../assets/images/paella.jpg",
+    imgName: "paella.jpg",
     tags: ["paleo"],
     meal: "Paella",
     calories: 700,
@@ -41,7 +45,8 @@ const MenuItems = [
   },
   {
     id: 5,
-    img: "../../assets/images/tapas.jpg",
+    // img: "../assets/images/tapas.jpg",
+    imgName: "tapas.jpg",
     // tags: ["healthy"],
     meal: "Tapas",
     calories: 750,
@@ -51,7 +56,8 @@ const MenuItems = [
   },
   {
     id: 6,
-    img: "../../assets/images/risotto.jpg",
+    // img: "../assets/images/risotto.jpg",
+    imgName: "risotto.jpg",
     tags: ["vegetarian"],
     meal: "Risotto",
     calories: 695,
