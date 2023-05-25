@@ -1,16 +1,13 @@
 import "../sections-styles/ImgGallery.css";
-import GalleryImg1 from "../../assets/images/round-plate.png";
+// import GalleryImg1 from "../../assets/images/round-plate.png";
+import SwiperCarousel from "../../components/SwiperCarousel";
 
 export default function ImgGallery() {
   return (
     <section className="gallery-section">
-      <h2 className="gallery-section__header">Take a look...</h2>
       <div className="container-xl">
-        <img
-          className="gallery-item"
-          src={GalleryImg1}
-          alt="Delicous dish on a round plate"
-        />
+        <h1 className="gallery-section__header">Take a look...</h1>
+        <SwiperCarousel />
       </div>
     </section>
   );

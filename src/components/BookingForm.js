@@ -1,5 +1,5 @@
 import "./component-styles/BookingForm.css";
-
+import { Link } from "react-router-dom";
 export default function BookingForm() {
   return (
     <form>
@@ -82,6 +82,9 @@ export default function BookingForm() {
         rows="4"
         cols="110"
       ></textarea>
+      <Link to="/reservation-confirmation">
+        <button className="btn">Check availability </button>
+      </Link>
     </form>
   );
 }
