@@ -57,7 +57,7 @@ export default function Menupage() {
           </ul>
         </div>
       </div> */}
-      <MealCard />
+      {/* <MealCard /> */}
       {/* {console.log(MenuItems)}
       {MealCards} */}
       {MealCards}

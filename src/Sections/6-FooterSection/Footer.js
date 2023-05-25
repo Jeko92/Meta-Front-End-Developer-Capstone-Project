@@ -60,31 +60,33 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-links">
-          <li>
+          {/* <ul> */}
+          <li key={Math.random()}>
             <Link className="footer-nav-link" to="/">
               Home
             </Link>
           </li>
-          <li>
+          <li key={Math.random()}>
             <Link className="footer-nav-link" to="/">
               About
             </Link>
           </li>
-          <li>
+          <li key={Math.random()}>
             <Link className="footer-nav-link" to="/menu">
               Menu
             </Link>
           </li>
-          <li>
+          <li key={Math.random()}>
             <Link className="footer-nav-link" to="/reserve-a-table">
               Reservations
             </Link>
           </li>
-          <li>
+          <li key={Math.random()}>
             <Link className="footer-nav-link" to="/">
               Contact us
             </Link>
           </li>
+          {/* </ul> */}
         </div>
         <div className="footer-contact">
           <p>+34 123 34 34 34</p>

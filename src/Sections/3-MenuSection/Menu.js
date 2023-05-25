@@ -22,28 +22,28 @@ export default function Menu() {
         <div className="assortment-section-content">
           <h2 className="assortment-section-header">Choose your Menu</h2>
           <ul className="assortment-section-items">
-            <li className="assortment-section-item">
+            <li key={Math.random()} className="assortment-section-item">
               <a href="./menu.html">
                 Breakfast
                 <IoIosRestaurant size={40} />
               </a>
             </li>
-            <li className="assortment-section-item">
+            <li key={Math.random()} className="assortment-section-item">
               <a href="./menu.html">
                 Lunch <IoIosPint size={40} />
               </a>
             </li>
-            <li className="assortment-section-item">
+            <li key={Math.random()} className="assortment-section-item">
               <a href="./menu.html">
                 Dinner <IoIosPizza size={40} />
               </a>
             </li>
-            <li className="assortment-section-item">
+            <li key={Math.random()} className="assortment-section-item">
               <a href="./menu.html">
                 Bar <IoIosWine size={40} />
               </a>
             </li>
-            <li className="assortment-section-item">
+            <li key={Math.random()} className="assortment-section-item">
               <a href="./menu.html">
                 Events <IoIosMic size={40} />
               </a>
